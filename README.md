@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Granny: Legacy Speedrun Mod" width="100%">
+</p>
+
 # Granny: Legacy Speedrun Mod
 
 [English](README.md) | [Русский](README.ru.md) | [Português](README.pt.md)
