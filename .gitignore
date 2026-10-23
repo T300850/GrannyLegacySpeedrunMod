@@ -1,0 +1,15 @@
+# Build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Local test artifacts
+screen.png
+*.log
+
+# Game folders, if someone copies the install next to the sources
+Mods/
+UserLibs/
+UserData/
