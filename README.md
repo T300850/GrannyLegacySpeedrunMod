@@ -147,6 +147,8 @@ It checks for:
 - suspicious pickup distance;
 - hand reach beyond the normal range.
 
+Input injection is checked only while the game window is in the foreground. Volume, media and browser keys, and single injected events, are ignored to prevent false positives.
+
 A local report is written to:
 
 ```text

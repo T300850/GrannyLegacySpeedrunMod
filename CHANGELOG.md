@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1 — 2026-10-24
+
+- Fixed false `SUS inject` flags caused by volume and media keys (for example `VK174`).
+- Injected input is now checked only while the game window is in the foreground.
+- Key-up events are no longer counted, so one injected key press is not treated as two events.
+- A single injected event no longer raises a SUS flag; at least three events are required, with a repeated action or a longer burst.
+- System keys (media, browser, PrintScreen, NumLock, ScrollLock, Sleep) are ignored by the input check.
+
 ## 1.0.0 — 2026-10-23
 
 Initial public release.

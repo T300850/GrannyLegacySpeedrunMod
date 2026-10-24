@@ -146,6 +146,8 @@ Ele verifica:
 - distância suspeita ao coletar itens;
 - alcance das mãos acima do normal.
 
+A entrada sintética só é verificada quando a janela do jogo está em primeiro plano. Teclas de volume, mídia e navegador, além de eventos injetados isolados, são ignorados para evitar falsos positivos.
+
 O relatório local é gravado em:
 
 ```text
